@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: notification_service
+    description: Notification microservice responsible for send sms
+    version: 1.0.0
+  profiles:
+    active: local
+
+app:
+  api:
+    prefix: /api/v1
